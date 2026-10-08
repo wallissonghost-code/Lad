@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#0b1220"><title>LAD Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="top">
+    <a class="logo" href="#home" data-route="home"><span>L</span>LAD</a>
+    <form id="searchForm" class="search"><input id="search" type="search" placeholder="Buscar produtos, marcas e categorias..." autocomplete="off"><button>Buscar</button></form>
+    <button class="cartBtn" data-route="cart" aria-label="Carrinho">🛒 <b id="cartCount">0</b></button>
+  </div>
+  <nav id="nav">
+    <a href="#home" data-route="home">Início</a><a href="#ofertas" data-route="ofertas">Ofertas</a><a href="#eletronicos" data-route="eletronicos">Eletrônicos</a><a href="#casa" data-route="casa">Casa</a><a href="#moda" data-route="moda">Moda</a><a href="#games" data-route="games">Games</a>
+  </nav>
+</header>
+<main id="app"></main>
+<footer><b>LAD Store</b><span>Uma vitrine experimental. Pagamentos e contas ainda não estão disponíveis.</span></footer>
+<div id="toast"></div>
+<script src="app.js"></script>
+</body></html>
